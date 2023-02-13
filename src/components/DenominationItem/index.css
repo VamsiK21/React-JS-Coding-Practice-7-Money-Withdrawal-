@@ -1,0 +1,30 @@
+/* Write your CSS here */
+
+.list-style {
+  margin-bottom: 20px;
+  list-style-type: none;
+  margin-right: 10px;
+  width: 45%;
+}
+
+.money {
+  border: solid #c7d2fe 2px;
+  color: #c7d2fe;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  background-color: #585076;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100%;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .money {
+    font-size: 29px;
+  }
+}
